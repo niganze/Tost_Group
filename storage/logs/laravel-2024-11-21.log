@@ -1,0 +1,758 @@
+[2024-11-21 07:55:13] local.ERROR: Undefined variable $select {"view":{"view":"C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\templates\\edugrids\\views\\site\\catalog\\sessions.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1519032981 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#2575</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1519032981\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","paginator":"<pre class=sf-dump id=sf-dump-1963908242 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Paginator\\Paginator</span> {<a class=sf-dump-ref>#2719</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">cacheEnabled</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Paginator\\Adapter\\DbSelect
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Paginator\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>DbSelect</span> {<a class=sf-dump-ref>#2703</a><samp data-depth=2 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">sql</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Sql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Sql</span> {<a class=sf-dump-ref>#2704</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref>#2572</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">sqlPlatform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Platform\\Platform
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Platform</span> {<a class=sf-dump-ref>#2705</a> &#8230;4}
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">resultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2729</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">buffer</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">count</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">dataSource</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">fieldCount</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">position</span>: <span class=sf-dump-num>0</span>
+      #<span class=sf-dump-protected title=\"Protected property\">allowedReturnTypes</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">arrayObjectPrototype</span>: <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2724</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">returnType</span>: \"<span class=sf-dump-str title=\"11 characters\">arrayobject</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">rowCount</span>: <span class=sf-dump-num>0</span>
+    #<span class=sf-dump-protected title=\"Protected property\">select</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Select
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Select</span> {<a class=sf-dump-ref>#2667</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">specifications</span>: <span class=sf-dump-note>array:11</span> [ &#8230;11]
+      #<span class=sf-dump-protected title=\"Protected property\">processInfo</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">instanceParameterIndex</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">tableReadOnly</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">prefixColumnsWithTable</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"7 characters\">courses</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">quantifier</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">columns</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">joins</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Join
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Join</span> {<a class=sf-dump-ref>#2698</a> &#8230;2}
+      #<span class=sf-dump-protected title=\"Protected property\">where</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Where
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Where</span> {<a class=sf-dump-ref>#2697</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">order</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">group</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">having</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Having
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Having</span> {<a class=sf-dump-ref>#2699</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">limit</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">offset</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">combine</span>: []
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">countSelect</span>: <span class=sf-dump-const>null</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">currentItemCount</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">currentItems</span>: <span class=sf-dump-note>ArrayIterator</span> {<a class=sf-dump-ref>#2738</a><samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-meta>storage</span>: []
+    <span class=sf-dump-meta>flag::STD_PROP_LIST</span>: <span class=sf-dump-const>false</span>
+    <span class=sf-dump-meta>flag::ARRAY_AS_PROPS</span>: <span class=sf-dump-const>false</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">currentPageNumber</span>: <span class=sf-dump-num>1</span>
+  #<span class=sf-dump-protected title=\"Protected property\">filter</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">itemCountPerPage</span>: <span class=sf-dump-num>30</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pageCount</span>: <span class=sf-dump-num>0</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pageRange</span>: <span class=sf-dump-num>10</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pages</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">view</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1963908242\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","pageTitle":"<pre class=sf-dump id=sf-dump-1119441898 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"17 characters\">Upcoming Sessions</span>\"
+</pre><script>Sfdump(\"sf-dump-1119441898\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","studentSessionTable":"<pre class=sf-dump id=sf-dump-309197418 data-indent-pad=\"  \"><span class=sf-dump-note>App\\V2\\Model\\StudentSessionTable</span> {<a class=sf-dump-ref>#2621</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">tableName</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+  +<span class=sf-dump-public title=\"Public property\">tableGateway</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\TableGateway
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TableGateway</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22631 title=\"2 occurrences\">#2631</a><samp data-depth=2 id=sf-dump-309197418-ref22631 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">isInitialized</span>: <span class=sf-dump-const>true</span>
+    #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22572 title=\"4 occurrences\">#2572</a><samp data-depth=3 id=sf-dump-309197418-ref22572 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">driver</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Driver\\Pdo\\Pdo
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter\\Driver\\Pdo</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Pdo</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22578 title=\"4 occurrences\">#2578</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">platform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Platform\\Mysql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Mysql</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22584 title=\"2 occurrences\">#2584</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">profiler</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">queryResultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2585</a> &#8230;8}
+      #<span class=sf-dump-protected title=\"Protected property\">lastPreparedStatement</span>: <span class=sf-dump-const>null</span>
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">columns</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">featureSet</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\Feature\\FeatureSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway\\Feature</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>FeatureSet</span> {<a class=sf-dump-ref>#2625</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">tableGateway</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\TableGateway
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TableGateway</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22631 title=\"2 occurrences\">#2631</a>}
+      #<span class=sf-dump-protected title=\"Protected property\">features</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">magicSpecifications</span>: []
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">resultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2632</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">buffer</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">count</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">dataSource</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">fieldCount</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">position</span>: <span class=sf-dump-num>0</span>
+      #<span class=sf-dump-protected title=\"Protected property\">allowedReturnTypes</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">arrayObjectPrototype</span>: <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2633</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">returnType</span>: \"<span class=sf-dump-str title=\"11 characters\">arrayobject</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">sql</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Sql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Sql</span> {<a class=sf-dump-ref>#2634</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22572 title=\"4 occurrences\">#2572</a>}
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">sqlPlatform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Platform\\Platform
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Platform</span> {<a class=sf-dump-ref>#2635</a> &#8230;4}
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">lastInsertValue</span>: <span class=sf-dump-const>null</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">serviceLocator</span>: <span class=sf-dump-note title=\"Laminas\\ServiceManager\\ServiceManager
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\ServiceManager</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ServiceManager</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref21187 title=\"2 occurrences\">#1187</a><samp data-depth=2 id=sf-dump-309197418-ref21187 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">abstractFactories</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">aliases</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">allowOverride</span>: <span class=sf-dump-const>false</span>
+    #<span class=sf-dump-protected title=\"Protected property\">creationContext</span>: <span class=sf-dump-note title=\"Laminas\\ServiceManager\\ServiceManager
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\ServiceManager</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ServiceManager</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref21187 title=\"2 occurrences\">#1187</a>}
+    #<span class=sf-dump-protected title=\"Protected property\">delegators</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">factories</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>Laminas\\Db\\Adapter\\Adapter</span>\" => <span class=sf-dump-note>Closure($sm)</span> {<a class=sf-dump-ref>#1405</a> &#8230;3}
+    </samp>]
+    #<span class=sf-dump-protected title=\"Protected property\">initializers</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">lazyServices</span>: []
+    -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Laminas\\ServiceManager\\ServiceManager`\">lazyServicesDelegator</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">services</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>Laminas\\Db\\Adapter\\Adapter</span>\" => <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22572 title=\"4 occurrences\">#2572</a>}
+    </samp>]
+    #<span class=sf-dump-protected title=\"Protected property\">shared</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">sharedByDefault</span>: <span class=sf-dump-const>true</span>
+    #<span class=sf-dump-protected title=\"Protected property\">configured</span>: <span class=sf-dump-const>true</span>
+    -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Laminas\\ServiceManager\\ServiceManager`\">cachedAbstractFactories</span>: []
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">primary</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-309197418-ref22572 title=\"4 occurrences\">#2572</a>}
+  #<span class=sf-dump-protected title=\"Protected property\">inputFilter</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">db</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">config</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">cache</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">accountId</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">prefix</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">timeStamp</span>: <span class=sf-dump-const>true</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-309197418\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","filter":"<pre class=sf-dump id=sf-dump-570493650 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-570493650\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","group":"<pre class=sf-dump id=sf-dump-442237304 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-442237304\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","text":"<pre class=sf-dump id=sf-dump-508039334 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Text</span> {<a class=sf-dump-ref>#2659</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"4 characters\">text</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"6 characters\">filter</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+    \"<span class=sf-dump-key>placeholder</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Search</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-508039334\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","sortSelect":"<pre class=sf-dump id=sf-dump-1875414767 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Select</span> {<a class=sf-dump-ref>#2654</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">select</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">sort</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">validator</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">disableInArrayValidator</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">emptyOption</span>: \"<span class=sf-dump-str title=\"8 characters\">--Sort--</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">valueOptions</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>recent</span>\" => \"<span class=sf-dump-str title=\"14 characters\">Recently Added</span>\"
+    \"<span class=sf-dump-key>asc</span>\" => \"<span class=sf-dump-str title=\"24 characters\">Alphabetical (Ascending)</span>\"
+    \"<span class=sf-dump-key>desc</span>\" => \"<span class=sf-dump-str title=\"25 characters\">Alphabetical (Descending)</span>\"
+    \"<span class=sf-dump-key>date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">Start Date</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">useHiddenElement</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">unselectedValue</span>: \"\"
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1875414767\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","sort":"<pre class=sf-dump id=sf-dump-1162281538 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-1162281538\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","userLayout":"<pre class=sf-dump id=sf-dump-989428749 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"13 characters\">layouts.admin</span>\"
+</pre><script>Sfdump(\"sf-dump-989428749\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $select at C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\templates\\edugrids\\views\\site\\catalog\\sessions.blade.php:145)
+[stacktrace]
+#0 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 147)
+#1 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\templates\\edugrids\\views\\site\\catalog\\sessions.blade.php(145): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 147)
+#2 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\ALAIN\\\\...')
+#3 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#5 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#6 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(73): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#7 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#8 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#9 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(70): Illuminate\\View\\View->render()
+#12 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#13 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#14 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\Site.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Site->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\App.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\App->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#29 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\server.php(21): require_once('C:\\\\Users\\\\ALAIN\\\\...')
+#62 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined variable $select at C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\storage\\framework\\views\\ee06c8f1bb4f71553bc25988a5b43a35.php:147)
+[stacktrace]
+#0 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 147)
+#1 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\storage\\framework\\views\\ee06c8f1bb4f71553bc25988a5b43a35.php(147): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 147)
+#2 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\ALAIN\\\\...')
+#3 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#5 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#6 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(73): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#7 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#8 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#9 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(70): Illuminate\\View\\View->render()
+#12 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#13 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#14 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\Site.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Site->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\App.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\App->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#29 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\server.php(21): require_once('C:\\\\Users\\\\ALAIN\\\\...')
+#62 {main}
+"} 
+[2024-11-21 09:26:28] local.INFO: No sessions found for given filters  
+[2024-11-21 09:26:45] local.INFO: No sessions found for given filters  
+[2024-11-21 09:28:26] local.INFO: No sessions found for given filters  
+[2024-11-21 09:28:29] local.INFO: No sessions found for given filters  
+[2024-11-21 09:29:02] local.INFO: No sessions found for given filters  
+[2024-11-21 09:35:12] local.INFO: No sessions found for given filters  
+[2024-11-21 10:00:15] local.INFO: No sessions found for given filters  
+[2024-11-21 10:09:15] local.INFO: No sessions found for given filters  
+[2024-11-21 10:09:16] local.INFO: No sessions found for given filters  
+[2024-11-21 10:11:15] local.INFO: No sessions found for given filters  
+[2024-11-21 11:04:17] local.ERROR: Undefined variable $attendanceTable {"view":{"view":"C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\resources\\views\\admin\\student\\sessions.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1596241945 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#2575</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1596241945\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","paginator":"<pre class=sf-dump id=sf-dump-51475477 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Paginator\\Paginator</span> {<a class=sf-dump-ref>#2719</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">cacheEnabled</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Paginator\\Adapter\\DbSelect
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Paginator\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>DbSelect</span> {<a class=sf-dump-ref>#2703</a><samp data-depth=2 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">sql</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Sql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Sql</span> {<a class=sf-dump-ref>#2704</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref>#2572</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">sqlPlatform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Platform\\Platform
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Platform</span> {<a class=sf-dump-ref>#2705</a> &#8230;4}
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">resultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2729</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">buffer</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">count</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">dataSource</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">fieldCount</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">position</span>: <span class=sf-dump-num>0</span>
+      #<span class=sf-dump-protected title=\"Protected property\">allowedReturnTypes</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">arrayObjectPrototype</span>: <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2724</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">returnType</span>: \"<span class=sf-dump-str title=\"11 characters\">arrayobject</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">rowCount</span>: <span class=sf-dump-num>2</span>
+    #<span class=sf-dump-protected title=\"Protected property\">select</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Select
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Select</span> {<a class=sf-dump-ref>#2671</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">specifications</span>: <span class=sf-dump-note>array:11</span> [ &#8230;11]
+      #<span class=sf-dump-protected title=\"Protected property\">processInfo</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">instanceParameterIndex</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">tableReadOnly</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">prefixColumnsWithTable</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"7 characters\">courses</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">quantifier</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">columns</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">joins</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Join
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Join</span> {<a class=sf-dump-ref>#2701</a> &#8230;2}
+      #<span class=sf-dump-protected title=\"Protected property\">where</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Where
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Where</span> {<a class=sf-dump-ref>#2699</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">order</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">group</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">having</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Having
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Having</span> {<a class=sf-dump-ref>#2702</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">limit</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">offset</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">combine</span>: []
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">countSelect</span>: <span class=sf-dump-const>null</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">currentItemCount</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">currentItems</span>: <span class=sf-dump-note>ArrayIterator</span> {<a class=sf-dump-ref>#2739</a><samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-meta>storage</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-index>0</span> => <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2596</a> &#8230;4}
+      <span class=sf-dump-index>1</span> => <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2736</a> &#8230;4}
+    </samp>]
+    <span class=sf-dump-meta>flag::STD_PROP_LIST</span>: <span class=sf-dump-const>false</span>
+    <span class=sf-dump-meta>flag::ARRAY_AS_PROPS</span>: <span class=sf-dump-const>false</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">currentPageNumber</span>: <span class=sf-dump-num>1</span>
+  #<span class=sf-dump-protected title=\"Protected property\">filter</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">itemCountPerPage</span>: <span class=sf-dump-num>30</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pageCount</span>: <span class=sf-dump-num>1</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pageRange</span>: <span class=sf-dump-num>10</span>
+  #<span class=sf-dump-protected title=\"Protected property\">pages</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">view</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-51475477\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","pageTitle":"<pre class=sf-dump id=sf-dump-554415734 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"23 characters\">Courses &amp; Sessions  (2)</span>\"
+</pre><script>Sfdump(\"sf-dump-554415734\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","studentSessionTable":"<pre class=sf-dump id=sf-dump-960901270 data-indent-pad=\"  \"><span class=sf-dump-note>App\\V2\\Model\\StudentSessionTable</span> {<a class=sf-dump-ref>#2621</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">tableName</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+  +<span class=sf-dump-public title=\"Public property\">tableGateway</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\TableGateway
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TableGateway</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22631 title=\"2 occurrences\">#2631</a><samp data-depth=2 id=sf-dump-960901270-ref22631 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">isInitialized</span>: <span class=sf-dump-const>true</span>
+    #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22572 title=\"4 occurrences\">#2572</a><samp data-depth=3 id=sf-dump-960901270-ref22572 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">driver</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Driver\\Pdo\\Pdo
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter\\Driver\\Pdo</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Pdo</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22578 title=\"4 occurrences\">#2578</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">platform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Platform\\Mysql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Mysql</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22584 title=\"2 occurrences\">#2584</a> &#8230;5}
+      #<span class=sf-dump-protected title=\"Protected property\">profiler</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">queryResultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2585</a> &#8230;8}
+      #<span class=sf-dump-protected title=\"Protected property\">lastPreparedStatement</span>: <span class=sf-dump-const>null</span>
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+    #<span class=sf-dump-protected title=\"Protected property\">columns</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">featureSet</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\Feature\\FeatureSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway\\Feature</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>FeatureSet</span> {<a class=sf-dump-ref>#2625</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">tableGateway</span>: <span class=sf-dump-note title=\"Laminas\\Db\\TableGateway\\TableGateway
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\TableGateway</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TableGateway</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22631 title=\"2 occurrences\">#2631</a>}
+      #<span class=sf-dump-protected title=\"Protected property\">features</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">magicSpecifications</span>: []
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">resultSetPrototype</span>: <span class=sf-dump-note title=\"Laminas\\Db\\ResultSet\\ResultSet
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\ResultSet</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ResultSet</span> {<a class=sf-dump-ref>#2632</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">buffer</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">count</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">dataSource</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">fieldCount</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">position</span>: <span class=sf-dump-num>0</span>
+      #<span class=sf-dump-protected title=\"Protected property\">allowedReturnTypes</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">arrayObjectPrototype</span>: <span class=sf-dump-note>ArrayObject</span> {<a class=sf-dump-ref>#2633</a> &#8230;4}
+      #<span class=sf-dump-protected title=\"Protected property\">returnType</span>: \"<span class=sf-dump-str title=\"11 characters\">arrayobject</span>\"
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">sql</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Sql
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Sql</span> {<a class=sf-dump-ref>#2634</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22572 title=\"4 occurrences\">#2572</a>}
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"15 characters\">student_courses</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">sqlPlatform</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Sql\\Platform\\Platform
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Sql\\Platform</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Platform</span> {<a class=sf-dump-ref>#2635</a> &#8230;4}
+    </samp>}
+    #<span class=sf-dump-protected title=\"Protected property\">lastInsertValue</span>: <span class=sf-dump-const>null</span>
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">serviceLocator</span>: <span class=sf-dump-note title=\"Laminas\\ServiceManager\\ServiceManager
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\ServiceManager</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ServiceManager</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref21187 title=\"2 occurrences\">#1187</a><samp data-depth=2 id=sf-dump-960901270-ref21187 class=sf-dump-compact>
+    #<span class=sf-dump-protected title=\"Protected property\">abstractFactories</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">aliases</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">allowOverride</span>: <span class=sf-dump-const>false</span>
+    #<span class=sf-dump-protected title=\"Protected property\">creationContext</span>: <span class=sf-dump-note title=\"Laminas\\ServiceManager\\ServiceManager
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\ServiceManager</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ServiceManager</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref21187 title=\"2 occurrences\">#1187</a>}
+    #<span class=sf-dump-protected title=\"Protected property\">delegators</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">factories</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>Laminas\\Db\\Adapter\\Adapter</span>\" => <span class=sf-dump-note>Closure($sm)</span> {<a class=sf-dump-ref>#1405</a> &#8230;3}
+    </samp>]
+    #<span class=sf-dump-protected title=\"Protected property\">initializers</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">lazyServices</span>: []
+    -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Laminas\\ServiceManager\\ServiceManager`\">lazyServicesDelegator</span>: <span class=sf-dump-const>null</span>
+    #<span class=sf-dump-protected title=\"Protected property\">services</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=3 class=sf-dump-compact>
+      \"<span class=sf-dump-key>Laminas\\Db\\Adapter\\Adapter</span>\" => <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22572 title=\"4 occurrences\">#2572</a>}
+    </samp>]
+    #<span class=sf-dump-protected title=\"Protected property\">shared</span>: []
+    #<span class=sf-dump-protected title=\"Protected property\">sharedByDefault</span>: <span class=sf-dump-const>true</span>
+    #<span class=sf-dump-protected title=\"Protected property\">configured</span>: <span class=sf-dump-const>true</span>
+    -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Laminas\\ServiceManager\\ServiceManager`\">cachedAbstractFactories</span>: []
+  </samp>}
+  #<span class=sf-dump-protected title=\"Protected property\">primary</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">adapter</span>: <span class=sf-dump-note title=\"Laminas\\Db\\Adapter\\Adapter
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Laminas\\Db\\Adapter</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Adapter</span> {<a class=sf-dump-ref href=#sf-dump-960901270-ref22572 title=\"4 occurrences\">#2572</a>}
+  #<span class=sf-dump-protected title=\"Protected property\">inputFilter</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">db</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">config</span>: <span class=sf-dump-const>null</span>
+  +<span class=sf-dump-public title=\"Public property\">cache</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">accountId</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">prefix</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">timeStamp</span>: <span class=sf-dump-const>true</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-960901270\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","filter":"<pre class=sf-dump id=sf-dump-123117320 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-123117320\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","group":"<pre class=sf-dump id=sf-dump-530931309 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-530931309\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","text":"<pre class=sf-dump id=sf-dump-301451460 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Text</span> {<a class=sf-dump-ref>#2659</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:4</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"4 characters\">text</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"6 characters\">filter</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+    \"<span class=sf-dump-key>placeholder</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Search</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-301451460\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","select":"<pre class=sf-dump id=sf-dump-170673041 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Select</span> {<a class=sf-dump-ref>#2654</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">select</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">group</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"20 characters\">form-control select2</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">validator</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">disableInArrayValidator</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">emptyOption</span>: \"<span class=sf-dump-str title=\"19 characters\">--Select Category--</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">valueOptions</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => \"<span class=sf-dump-str title=\"10 characters\">Category 1</span>\"
+    <span class=sf-dump-key>2</span> => \"<span class=sf-dump-str title=\"10 characters\">Category 2</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">useHiddenElement</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">unselectedValue</span>: \"\"
+</samp>}
+</pre><script>Sfdump(\"sf-dump-170673041\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","sortSelect":"<pre class=sf-dump id=sf-dump-195267261 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Select</span> {<a class=sf-dump-ref>#2649</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">select</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">sort</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">validator</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">disableInArrayValidator</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">emptyOption</span>: \"<span class=sf-dump-str title=\"8 characters\">--Sort--</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">valueOptions</span>: <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>recent</span>\" => \"<span class=sf-dump-str title=\"14 characters\">Recently Added</span>\"
+    \"<span class=sf-dump-key>asc</span>\" => \"<span class=sf-dump-str title=\"24 characters\">Alphabetical (Ascending)</span>\"
+    \"<span class=sf-dump-key>desc</span>\" => \"<span class=sf-dump-str title=\"25 characters\">Alphabetical (Descending)</span>\"
+    \"<span class=sf-dump-key>date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">Start Date</span>\"
+    \"<span class=sf-dump-key>priceAsc</span>\" => \"<span class=sf-dump-str title=\"25 characters\">Price (Lowest to Highest)</span>\"
+    \"<span class=sf-dump-key>priceDesc</span>\" => \"<span class=sf-dump-str title=\"25 characters\">Price (Highest to Lowest)</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">useHiddenElement</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">unselectedValue</span>: \"\"
+</samp>}
+</pre><script>Sfdump(\"sf-dump-195267261\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","sort":"<pre class=sf-dump id=sf-dump-1179590886 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-1179590886\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","typeSelect":"<pre class=sf-dump id=sf-dump-47249620 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Select</span> {<a class=sf-dump-ref>#2643</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">select</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">type</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">validator</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">disableInArrayValidator</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">emptyOption</span>: \"<span class=sf-dump-str title=\"8 characters\">--Type--</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">valueOptions</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>c</span>\" => \"<span class=sf-dump-str title=\"13 characters\">Online Course</span>\"
+    \"<span class=sf-dump-key>s</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Training Session</span>\"
+    \"<span class=sf-dump-key>b</span>\" => \"<span class=sf-dump-str title=\"36 characters\">Training Session with Online Classes</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">useHiddenElement</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">unselectedValue</span>: \"\"
+</samp>}
+</pre><script>Sfdump(\"sf-dump-47249620\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","type":"<pre class=sf-dump id=sf-dump-1203918916 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-1203918916\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","paymentSelect":"<pre class=sf-dump id=sf-dump-300955798 data-indent-pad=\"  \"><span class=sf-dump-note>Laminas\\Form\\Element\\Select</span> {<a class=sf-dump-ref>#2636</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:3</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>type</span>\" => \"<span class=sf-dump-str title=\"6 characters\">select</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"7 characters\">payment</span>\"
+    \"<span class=sf-dump-key>class</span>\" => \"<span class=sf-dump-str title=\"12 characters\">form-control</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">label</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">labelAttributes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">labelOptions</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">messages</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">options</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">value</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hasValue</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">validator</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">disableInArrayValidator</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">emptyOption</span>: \"<span class=sf-dump-str title=\"20 characters\">--Payment Required--</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">valueOptions</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-key>1</span> => \"<span class=sf-dump-str title=\"3 characters\">Yes</span>\"
+    <span class=sf-dump-key>0</span> => \"<span class=sf-dump-str title=\"2 characters\">No</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">useHiddenElement</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">unselectedValue</span>: \"\"
+</samp>}
+</pre><script>Sfdump(\"sf-dump-300955798\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","payment":"<pre class=sf-dump id=sf-dump-565575554 data-indent-pad=\"  \"><span class=sf-dump-const>null</span>
+</pre><script>Sfdump(\"sf-dump-565575554\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","userLayout":"<pre class=sf-dump id=sf-dump-2052658794 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"13 characters\">layouts.admin</span>\"
+</pre><script>Sfdump(\"sf-dump-2052658794\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $attendanceTable at C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\resources\\views\\admin\\student\\sessions.blade.php:356)
+[stacktrace]
+#0 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 399)
+#1 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\resources\\views\\admin\\student\\sessions.blade.php(356): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 399)
+#2 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\ALAIN\\\\...')
+#3 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#5 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#6 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(73): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#7 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#8 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#9 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(70): Illuminate\\View\\View->render()
+#12 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#13 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#14 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\Site.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Site->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\App.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\App->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#29 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\server.php(21): require_once('C:\\\\Users\\\\ALAIN\\\\...')
+#62 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined variable $attendanceTable at C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\storage\\framework\\views\\9d38dccdcd1b55684e07bc6bc714c63c.php:399)
+[stacktrace]
+#0 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 399)
+#1 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\storage\\framework\\views\\9d38dccdcd1b55684e07bc6bc714c63c.php(399): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Users\\\\ALAIN\\\\...', 399)
+#2 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\ALAIN\\\\...')
+#3 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#5 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#6 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(73): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#7 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#8 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(208): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\Users\\\\ALAIN\\\\...', Array)
+#9 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(191): Illuminate\\View\\View->getContents()
+#10 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(160): Illuminate\\View\\View->renderContents()
+#11 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(70): Illuminate\\View\\View->render()
+#12 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#13 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#14 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#16 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\Site.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Site->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\app\\Http\\Middleware\\App.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\App->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#29 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\public\\index.php(54): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ALAIN\\Desktop\\traineasy\\traineasy\\traineasy\\server.php(21): require_once('C:\\\\Users\\\\ALAIN\\\\...')
+#62 {main}
+"} 
+[2024-11-21 11:04:51] local.INFO: No sessions found for given filters  
+[2024-11-21 11:21:44] local.INFO: No sessions found for given filters  
