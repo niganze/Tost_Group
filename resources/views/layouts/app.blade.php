@@ -77,7 +77,7 @@
     <main class="py-4">
         @yield('content')
     </main>
-    @yield('footer')
+    {{-- @yield('footer') --}}
 </div>
 </body>
 </html>

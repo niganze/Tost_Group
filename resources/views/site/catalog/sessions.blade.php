@@ -255,9 +255,6 @@
                                     </div>
 
 
-
-
-
                                 @php  endforeach;  @endphp
 
                             </div>

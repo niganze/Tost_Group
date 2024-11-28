@@ -37,6 +37,8 @@ Route::get('instructors/{admin}','Site\HomeController@instructor')->name('instru
 
 
 
+
+
 Route::get('email-confirmation','Auth\RegisterController@confirm')->name('register.confirm');
 Route::get('confirm/student/{hash}','Auth\RegisterController@confirmStudent')->name('confirm.student');
 Route::post('register/social','Auth\LoginController@registerSocial')->name('register.social');
@@ -519,11 +521,13 @@ Route::group(['namespace'=>'Site','middleware'=>'site'],function(){
         Route::get('/blog','BlogController@index')->name('blog');
         Route::get('/blog/{blogPost}/{slug?}','BlogController@post')->name('blog.post');
     });
-
+    //subscribe to email 
+    Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
+    
     Route::get('/courses','CatalogController@courses')->name('courses');
     Route::get('/courses/{course}/{slug?}','CatalogController@course')->name('course');
     Route::get('/sessions','CatalogController@sessions')->name('sessions');
-
+   
 
     Route::any('/cart','CartController@index')->name('cart');
     Route::get('/cart/add/{course}','CartController@add')->name('cart.add');

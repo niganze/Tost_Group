@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('page-title',__lang('login')); ?>
 <?php if($enableRegistration): ?>
 <?php $__env->startSection('page-class'); ?>

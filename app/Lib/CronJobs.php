@@ -45,6 +45,7 @@ class CronJobs
             $subject = __lang('new-forum-topics-for').' '.$course->name;
             $this->notifySessionStudents($sessionId,$subject,$message);
 
+            
             $data['module'] = 'admin';
             $message = view('mails.forum_topic',$data)->toHtml();
             $sent= $this->notifyAdmins(__lang('new-forum-topics-for').' '.Course::find($sessionId)->name,$message);

@@ -167,7 +167,6 @@ class CatalogController extends Controller
         }
 
 
-
         $text = new Text('filter');
         $text->setAttribute('class','form-control');
         $text->setAttribute('placeholder','Search');
@@ -198,16 +197,12 @@ class CatalogController extends Controller
         $groupTable = new SessionCategoryTable();
         $groupRowset = $groupTable->getLimitedRecords(100);
 
-        // $paginator = $table->getPaginatedRecords(true,null,null,$filter,$group,$sort,false);
+       
         $paginator = $table->getPaginatedRecords(true,null,null,$filter,$group,$sort,['s','b'],false);
 
 
-
-        
-
         $paginator->setCurrentPageNumber((int)$request->get('page', 1));
         $paginator->setItemCountPerPage(30);
-
 
 
 

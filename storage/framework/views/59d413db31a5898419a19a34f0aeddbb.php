@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('innerTitle',__lang('dashboard')); ?>
 <?php $__env->startSection('pageTitle',__lang('dashboard')); ?>
 <?php $__env->startSection('breadcrumb'); ?>

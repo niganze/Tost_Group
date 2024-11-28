@@ -132,6 +132,8 @@ class SessionController extends Controller
                 $courseRow = Course::create($dbData);
                 $sessionId= $courseRow->id;
 
+                
+
                 if(isset($formData['session_category_id'])){
                     //now put the records in
                     $courseRow->courseCategories()->attach($formData['session_category_id']);

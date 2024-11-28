@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('pageTitle',$pageTitle); ?>
 <?php $__env->startSection('innerTitle',$pageTitle); ?>
 <?php $__env->startSection('breadcrumb'); ?>
@@ -260,9 +261,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
 
 
                                 <?php  endforeach;  ?>

@@ -381,24 +381,33 @@
                 @endforeach
                 <div class="col-lg-3 col-md-6 col-12">
 
+                    
                     <!-- Single Widget -->
                     <div class="single-footer footer-newsletter">
-                        @if(!empty(toption('footer','newsletter-code')))
-                            {!! toption('footer','newsletter-code') !!}
-                        @else
-                        <h3>{{ __t('stay-updated') }}</h3>
-                        <p>{{ __t('subscribe-text') }}</p>
-                        <form action="#" method="get" target="_blank" class="newsletter-form">
-                            <input name="EMAIL" placeholder="{{ __t('enter-email') }}" class="common-input"
-                                   onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = '{{ addslashes(__t('enter-email')) }}'" required="" type="email">
-                            <div class="button">
-                                <button class="btn">{{ __t('subscribe-now') }}</button>
-                            </div>
-                        </form>
-                        @endif
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
 
-                    </div>
+    @if(!empty(toption('footer','newsletter-code')))
+        {!! toption('footer','newsletter-code') !!}
+    @else
+    <h3>{{ __t('stay-updated') }}</h3>
+    <p>{{ __t('subscribe-text') }}</p>
+    <form action="{{ route('subscribe') }}" method="POST" class="newsletter-form">
+        @csrf
+        <input name="email" placeholder="{{ __t('enter-email') }}" class="common-input"
+               onfocus="this.placeholder = ''"
+               onblur="this.placeholder = '{{ addslashes(__t('enter-email')) }}'" required="" type="email">
+        <div class="button">
+            <button class="btn">{{ __t('subscribe-now') }}</button>
+        </div>
+    </form>
+    @endif
+</div>
+
+
                     <!-- End Single Widget -->
 
                 </div>

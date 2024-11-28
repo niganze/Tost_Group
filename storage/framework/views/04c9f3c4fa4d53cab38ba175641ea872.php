@@ -384,25 +384,35 @@
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 <div class="col-lg-3 col-md-6 col-12">
 
+                    
                     <!-- Single Widget -->
                     <div class="single-footer footer-newsletter">
-                        <?php if(!empty(toption('footer','newsletter-code'))): ?>
-                            <?php echo toption('footer','newsletter-code'); ?>
+    <?php if(session('success')): ?>
+        <div class="alert alert-success">
+            <?php echo e(session('success')); ?>
 
-                        <?php else: ?>
-                        <h3><?php echo e(__t('stay-updated')); ?></h3>
-                        <p><?php echo e(__t('subscribe-text')); ?></p>
-                        <form action="#" method="get" target="_blank" class="newsletter-form">
-                            <input name="EMAIL" placeholder="<?php echo e(__t('enter-email')); ?>" class="common-input"
-                                   onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = '<?php echo e(addslashes(__t('enter-email'))); ?>'" required="" type="email">
-                            <div class="button">
-                                <button class="btn"><?php echo e(__t('subscribe-now')); ?></button>
-                            </div>
-                        </form>
-                        <?php endif; ?>
+        </div>
+    <?php endif; ?>
 
-                    </div>
+    <?php if(!empty(toption('footer','newsletter-code'))): ?>
+        <?php echo toption('footer','newsletter-code'); ?>
+
+    <?php else: ?>
+    <h3><?php echo e(__t('stay-updated')); ?></h3>
+    <p><?php echo e(__t('subscribe-text')); ?></p>
+    <form action="<?php echo e(route('subscribe')); ?>" method="POST" class="newsletter-form">
+        <?php echo csrf_field(); ?>
+        <input name="email" placeholder="<?php echo e(__t('enter-email')); ?>" class="common-input"
+               onfocus="this.placeholder = ''"
+               onblur="this.placeholder = '<?php echo e(addslashes(__t('enter-email'))); ?>'" required="" type="email">
+        <div class="button">
+            <button class="btn"><?php echo e(__t('subscribe-now')); ?></button>
+        </div>
+    </form>
+    <?php endif; ?>
+</div>
+
+
                     <!-- End Single Widget -->
 
                 </div>
