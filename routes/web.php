@@ -12,9 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
-
+use App\Http\Controllers\Admin\CertificateController;
+use App\Http\Controllers\Site\HomeController;
 
 Auth::routes();
 Route::get('social/login/{network}','Auth\LoginController@social')->name('social.login');
@@ -76,6 +75,14 @@ Route::group(['middleware'=>['auth','admin',\App\Http\Middleware\UserLimit::clas
     Route::any('certificate/students/{id}','CertificateController@students')->name('certificate.students');
     Route::any('certificate/track','CertificateController@track')->name('certificate.track');
 
+
+     
+
+
+    // Route::post('certificate/verify', [CertificateController::class, 'verifyCertificate'])->name('certificate.verify');
+
+
+ 
 
     Route::any('course/intro/{id}','CourseController@intro')->name('course.intro');
     Route::any('course/class/{lesson}/{course}','CourseController@class')->name('course.class');
@@ -521,6 +528,12 @@ Route::group(['namespace'=>'Site','middleware'=>'site'],function(){
         Route::get('/blog','BlogController@index')->name('blog');
         Route::get('/blog/{blogPost}/{slug?}','BlogController@post')->name('blog.post');
     });
+     
+    // verify the certificate
+
+   
+
+
     //subscribe to email 
     Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
     
@@ -556,3 +569,6 @@ Route::group(['namespace'=>'Site','middleware'=>'site'],function(){
 //this route should point to a controller that fetches articles
 Route::get('/{slug}','Site\HomeController@article')->name('article')->middleware('frontend');
 Route::get('/cron/{method}','Site\HomeController@cron')->name('cron');
+
+
+Route::post('/verify',[HomeController::class,'verifyCertificate'])->name('verify');

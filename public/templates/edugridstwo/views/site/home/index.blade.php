@@ -1,4 +1,4 @@
-@extends(TLAYOUT)
+{{-- @extends(TLAYOUT)
 @section('page-title',setting('general_homepage_title'))
 @section('meta-description',setting('general_homepage_meta_desc'))
 
@@ -496,4 +496,4 @@
 
 
 
-
+ --}}

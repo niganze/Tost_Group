@@ -34,6 +34,8 @@ class CertificateForm extends BaseForm {
             'options'=>array('label'=>__lang('Description')),
         ));
 
+        
+
         $this->add(array(
             'name'=>'image',
             'attributes' => array(
@@ -44,6 +46,20 @@ class CertificateForm extends BaseForm {
             ),
             'options'=>array('label'=>__lang('Certificate Image')),
         ));
+
+        $this->add(array(
+            'name' => 'verification_code',
+            'attributes' => array(
+                'type' => 'text',
+                'class' => 'form-control',
+                'required' => 'required',  // Remove this if it's optional
+                'placeholder' => __lang('Enter Verification Code'),
+            ),
+            'options' => array(
+                'label' => __lang('Verification Code'),
+            ),
+        ));
+        
 
         $this->createSelect('orientation','Orientation',['p'=>__lang('Portrait'),'l'=>__lang('Landscape')],true,false);
         $this->createSelect('enabled','Enabled',[1=>__lang('Yes'),0=>__lang('No')],true,false);

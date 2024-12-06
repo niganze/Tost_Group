@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('page-title',setting('general_homepage_title')); ?>
 <?php $__env->startSection('meta-description',setting('general_homepage_meta_desc')); ?>
 
@@ -66,10 +67,46 @@
 
                     <?php endif; ?>
                 <?php endfor; ?>
+         
+                  
+                  
+            </section>
 
+<section class="bg-gray-100 py-12" id="verify-certificate">
+    <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">
+                Verify Your Certificate
+            </h2>
+            <p class="text-gray-600 text-center mb-6">
+                Enter your certificate code below to verify its authenticity
+            </p>
+
+            <!-- Display status or error messages -->
+            <?php if(session('status')): ?>
+                <div class="bg-green-200 text-green-800 p-4 rounded mb-4">
+                    <?php echo e(session('status')); ?>
 
                 </div>
-            </section>
+            <?php elseif(session('error')): ?>
+                <div class="bg-red-200 text-red-800 p-4 rounded mb-4">
+                    <?php echo e(session('error')); ?>
+
+                </div>
+            <?php endif; ?>
+
+            <form action="<?php echo e(route('verify')); ?>" method="POST" class="certificate-verification-form">
+    <?php echo csrf_field(); ?>
+    <div class="mb-4">
+        <input name="verification_code" placeholder="Enter your certificate code" class="w-full px-4 py-2 border rounded-md focus:ring-blue-500 focus:border-blue-500" required type="text">
+    </div>
+    <button type="submit" class="btn">Verify Certificate</button>
+</form>
+            
+        </div>
+    </div>
+</section>
+
                 <?php $__env->startSection('footer'); ?>
                     <?php echo \Illuminate\View\Factory::parentPlaceholder('footer'); ?>
                     <script>

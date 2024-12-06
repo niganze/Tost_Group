@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Certificate extends Model
 {
-    protected $fillable = ['course_id','admin_id','name','image','orientation','description','html','any_session','max_downloads','payment_required','price'];
+    protected $fillable = ['course_id','admin_id','name','image','orientation','description','html','any_session','max_downloads','payment_required','verification_code','price'];
+ 
 
     public function course(){
         return $this->belongsTo(Course::class);

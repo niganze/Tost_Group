@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Site;
 
 use App\Admin;
 use App\Article;
+use App\Certificate;
 use App\Http\Controllers\Controller;
 use App\Lib\CronJobs;
 use App\Lib\HelperTrait;
@@ -14,7 +15,7 @@ class HomeController extends Controller
     use HelperTrait;
     public function index(){
 
-        //check if installation file exists and redirect to install if not
+        
         if(!file_exists('../storage/installed')){
            return redirect('/install');
         }
@@ -103,5 +104,21 @@ class HomeController extends Controller
 
         $jobs= new CronJobs();
         call_user_func([$jobs,$method]);
+    }
+
+    public function verifyCertificate(Request $request)
+    {
+        $request->validate([
+            'verification_code' => 'required|string'
+        ]);
+
+        $certificate = Certificate::where('verification_code', $request->verification_code)->first();
+
+        if ($certificate) {
+           
+            return redirect()->back()->with('status', 'Certificate is valid!');
+        } else {
+            return redirect()->back()->with('error', 'Invalid certificate code.');
+        }
     }
 }
